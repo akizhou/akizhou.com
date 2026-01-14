@@ -5,7 +5,7 @@
 // Constants
 const ANIMATION_FPS = 10;
 const ANIMATION_INTERVAL = 1000 / ANIMATION_FPS; // 100ms
-const NUM_FRAMES = 36;
+const NUM_FRAMES = 35;
 const ASPECT_RATIO = 0.32;
 const RESIZE_DEBOUNCE = 1500;
 
