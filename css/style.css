@@ -131,7 +131,7 @@ main {
 #sign {
     width: 100%;
     aspect-ratio: 100 / 32;
-    background: url("../assets/images/sprite-sign.png");
+    background: url("../assets/images/sprite-sign.webp");
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-color: var(--color-surface);
