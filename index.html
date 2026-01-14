@@ -1,31 +1,68 @@
 <!DOCTYPE html>
-<html lang="end">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aki Zhou | Software Developer</title>
+    <meta name="description" content="Personal portfolio of Aki Zhou - Software Developer. View my projects, experience, and get in touch.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Aki Zhou | Software Developer">
+    <meta property="og:description" content="Personal portfolio of Aki Zhou - Software Developer.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://akizhou.com">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Aki Zhou | Software Developer">
+    <meta name="twitter:description" content="Personal portfolio of Aki Zhou - Software Developer.">
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>A</text></svg>">
+
+    <!-- Security -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; script-src 'self' 'unsafe-inline';">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=JetBrains+Mono:wght@500&display=swap">
+
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body> 
-    <header>
-        <nav>
-            <a class="navbar-item" href="https://www.linkedin.com/in/aki-zhou/">ABOUT</a>
-            <a class="navbar-item" href="https://github.com/akizhou">PROJECTS</a>
-          <a class="navbar-item" href="mailto:aki@akizhou.com">CONTACT</a>
-        </nav>
-    </header>
-    <main>
-      <div id="sign"></div>
-    </main>
-    <footer>
-      <p id="copyright">
-        <small>Copyright &copy; <span id="year"></span> Aki Zhou. All rights reserved.</small>
-      </p>
-    </footer>
+<body>
+    <!-- Loading Screen -->
+    <div id="loader" class="loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <div id="content" class="content hidden">
+        <header>
+            <nav>
+                <a class="navbar-item" href="https://www.linkedin.com/in/aki-zhou/" target="_blank" rel="noopener noreferrer">ABOUT</a>
+                <a class="navbar-item" href="https://github.com/akizhou" target="_blank" rel="noopener noreferrer">PROJECTS</a>
+                <a class="navbar-item" href="mailto:aki@akizhou.com">CONTACT</a>
+            </nav>
+        </header>
+        <main>
+            <div
+                id="sign"
+                role="img"
+                aria-label="Aki Zhou's animated signature"
+                tabindex="0"
+            ></div>
+        </main>
+        <footer>
+            <p id="copyright">
+                <small>Copyright &copy; <span id="year"></span> Aki Zhou. All rights reserved.</small>
+            </p>
+        </footer>
+    </div>
 
     <!-- JavaScript -->
-    <script type="text/javascript" src="js/home.js"></script>
+    <script src="js/home.js"></script>
 </body>
 </html>
