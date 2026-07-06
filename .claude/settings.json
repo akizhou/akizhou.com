@@ -1,0 +1,5 @@
+{
+  "permissions": {
+    "allow": ["Bash(sips:*)", "Bash(identify:*)", "Bash(cwebp:*)", "Bash(wc:*)"]
+  }
+}
